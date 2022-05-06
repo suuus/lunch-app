@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lunch-app
+  description: Lunch App
+  annotations:
+    pagerduty.com/integration-key: 6f595b537c18400ec0b7f6d5ab302536
+spec:
+  type: website
+  lifecycle: experimental
+  owner: travel-ex
+  system: mars-mission
+  dependsOn:
+    - component:default/userdb
+    - component:default/flight-info
