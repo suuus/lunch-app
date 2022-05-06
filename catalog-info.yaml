@@ -6,6 +6,7 @@ metadata:
   annotations:
     pagerduty.com/integration-key: 6f595b537c18400ec0b7f6d5ab302536
     github.com/project-slug: OrkoHunter/lunch-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: experimental
