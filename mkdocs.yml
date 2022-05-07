@@ -1,0 +1,7 @@
+site_name: "Documentation for lunch app"
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
