@@ -15,3 +15,5 @@ spec:
   dependsOn:
     - component:default/userdb
     - component:default/flight-info
+  consumesApis:
+    - flight-info
