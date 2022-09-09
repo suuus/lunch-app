@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: OrkoHunter/lunch-app
     backstage.io/techdocs-ref: dir:.
     rootly.com/app-name: lunch-app
+    grafana/tag-selector: "lunch-app"
   links:
     - url: https://mars.com
       title: Rockit Lunch App
