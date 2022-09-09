@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     rootly.com/app-name: lunch-app
     grafana/tag-selector: lunch-app
-    prometheus.io/rule: go_memstats_alloc_bytes
+    prometheus.io/rule: go_memstats_alloc_bytes{instance="localhost:9090", job="prometheus"}
   links:
     - url: https://mars.com
       title: Rockit Lunch App
