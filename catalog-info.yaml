@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: OrkoHunter/lunch-app
     backstage.io/techdocs-ref: dir:.
+    rootly.com/app-name: lunch-app
     pagerduty.com/integration-key: 6f595b537c18400ec0b7f6d5ab302536
     grafana/tag-selector: lunch-app
     prometheus.io/rule: go_memstats_heap_idle_bytes
