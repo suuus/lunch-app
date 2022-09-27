@@ -4,13 +4,13 @@ metadata:
   name: lunch-app
   description: Lunch App
   annotations:
-    github.com/project-slug: OrkoHunter/lunch-app
+    github.com/project-slug: Rockit-Rockets/lunch-app
     backstage.io/techdocs-ref: dir:.
     rootly.com/app-name: lunch-app
     pagerduty.com/integration-key: 6f595b537c18400ec0b7f6d5ab302536
     grafana/tag-selector: lunch-app
     prometheus.io/rule: go_memstats_heap_idle_bytes
-    jenkins.io/github-folder: OrkoHunter/lunch-app
+    jenkins.io/github-folder: Rockit-Rockets/lunch-app
   links:
     - url: https://mars.com
       title: Rockit Lunch App
