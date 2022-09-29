@@ -1,0 +1,15 @@
+uses: github-actions-up-and-running/pr-comment@v1.0.0
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  approved:
+    if: github.event.review.state == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        message: Nice PR!👍
+      
